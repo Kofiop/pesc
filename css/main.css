@@ -146,17 +146,21 @@ h2::before {
 .companies {
     text-align: center;
     opacity: .4;
-
+}
     li {
         margin: 2em 0;
     }
 
-    .skillshare {
+    .adom {
         width: 100px;
+        height: 50px;
+
     }
 
-    .ps {
-        width: 200px;
+    .utv {
+        width: 100px;
+        height: 50px;
+        
     }
 }
 
