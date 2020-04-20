@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devic-width, initial-scale=1.0">
+    <title>Prince Emmanuel Sanitarium Clinic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href=”/css/global.css” rel=”stylesheet” type=”text/css” media=”handheld” />
+</head>
+<body>
+  
+    <div class="hero-wrapper">
+        <div class="wrapper">
+            <header>
+                <a href="index.html"><img src="images/logo.png" alt="logo" height="79" width="120"></a>
+
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="hero-content">
+                <h1>Prince Emmanuel Sanitarium &amp; Clinic</h1>
+                <p class="subtitle">Let you food be your medicine</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="light-purple-wrapper">
+        <div class="wrapper">
+            <div class="mySlides fade">
+                <img src="images/slide1.jpeg" alt="Smiley face" height="500" width="300"style="width:100%" height="50%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/slide4.jpeg" height="500" width="300" style="width:100%" height="50%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/slide3.jpeg" alt="Smiley face" height="500" width="300" style="width:100%" height="50%">
+            </div>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+  
+            </div>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+    <!--<div class="light-purple-wrapper">
+        <div class="wrapper">
+            <ul class="stats">
+                <li>
+                    <strong>26.5M</strong>
+                    <span>YouTube Views</span>
+                </li>
+                <li>
+                    <strong>535K</strong>
+                    <span>YouTube Subs</span>
+                </li>
+                <li>
+                    <strong>86</strong>
+                    <span>Courses</span>
+                </li>
+                <li>
+                    <strong>750</strong>
+                    <span>Video Tutorials</span>
+                </li>
+                <li>
+                    <strong>58</strong>
+                    <span>Countries</span>
+                </li>
+            </ul>
+        </div> -->
+
+        <div class="extended-wrapper carousal-container">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/arrow_copy_copy.svg" id="left-arrow" class="arrows" alt="Move testimonials to the left">
+
+            <ul class="carousal">
+                <li>
+                    <blockquote>"Dr. Benjamin is a life saver. He is one of the best Clinical Nutritionist in Ghana."</blockquote>
+                    <cite>Kofi Opoku</cite>
+                </li>
+                <li>
+                    <blockquote>"Dr. Benjamin is a life saver. He is one of the best Medical Practitoner in Ghana."</blockquote>
+                    <cite>Cassie Matthews</cite>
+                </li>
+            </ul>
+
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/arrow_copy_copy.svg" id="right-arrow" class="arrows right" alt="Move testimonials to the right">
+        </div>
+    </div>
+
+    <div class="wrapper move-up v-padding">
+        <h2>Stations as a guest to...</h2>
+
+        <ul class="companies">
+            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/skillshare.svg" alt="skillshare" class="skillshare"></li>
+            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/ps.svg" alt="Pluralsight" class="ps"></li>
+            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/skillshare.svg" alt="skillshare" class="skillshare"></li>
+            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/ps.svg" alt="Pluralsight" class="ps"></li>
+        </ul>
+    </div>
+
+    <div>
+         <center>
+         <div class="social-media"><div class="title">Connect with Us</div>
+         <a href="#" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-youtube"></a>        
+        
+    </center>
+    </div>
+
+</body>
+
+</html>
