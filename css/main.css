@@ -141,7 +141,7 @@ ul {
 }
 
 .hero-wrapper {
-    background: url('../images/download.png');
+    background: url('../images/fruitveg.jpeg');
     background-size: cover;
 }
 
@@ -149,6 +149,7 @@ ul {
     padding: 1.5em;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 header {
@@ -178,6 +179,7 @@ header {
 
 .light-purple-wrapper {
     background: #351F3A;
+    
 }
 
 .stats {
