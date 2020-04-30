@@ -278,7 +278,7 @@ header {
   to {opacity: 1}
 }
 
-/*.stats {
+.stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     justify-content: space-around;
@@ -297,7 +297,7 @@ header {
         text-transform: uppercase;
         font-size: .75em;
     }
-}*/
+}
 
 .arrows {
     display: none;
@@ -311,7 +311,7 @@ header {
 
 ul.carousal {
     margin-bottom: 1em;
-    
+}    
     li {
         background: #422847;
         padding: 1em;
@@ -504,3 +504,4 @@ h2::before {
   background: #FF0000;
   color: white;
 }
+
