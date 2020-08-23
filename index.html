@@ -19,9 +19,9 @@
                 <nav>
                     <div class="topnav" id="myTopnav">
                         <a href="index.html" class="active">Home</a>
-                        <a href="about.html">About</a>
+                        <a href="about.html">About Us</a>
                         <a href="services.html">Services</a>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">Contact Us</a>
                         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                     </div>
 
@@ -42,7 +42,7 @@
 
             <div class="hero-content">
                 <h1><b>Prince Emmanuel Sanitarium &amp; Clinic</b></h1>
-                <p class="subtitle"><b>Let Thy Food Be Thy Medicine</b></p>
+                <p class="subtitle"><b>Let food be your medicine and your medicine be food</b></p>
             </div>
         </div>
     </div>
@@ -60,13 +60,13 @@
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="images/WhatsApp Image 2020-03-26 at 2.25.01 PM (2).jpeg" style="width:100%">
+    <img src="images/slide1.jpeg" style="width:100%">
     <!--<div class="text">Caption Two</div>-->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="images/wrapper.jpeg" alt="slide3" style="width:100%">
+    <img src="images/slide1.jpeg" alt="slide3" style="width:100%">
     <!--<div class="text">Caption Three</div>-->
   </div>
 
@@ -84,48 +84,53 @@
 </div>
             <script>
                 var slideIndex = 0;
-showSlides();
+                showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+                function showSlides() {
+
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";}
+  
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
             </script>
 
-    <!--<div class="light-purple-wrapper">
-        <div class="wrapper">
-            <ul class="stats">
-                <li>
-                    <strong>26.5M</strong>
-                    <span>YouTube Views</span>
-                </li>
-                <li>
-                    <strong>535K</strong>
-                    <span>YouTube Subs</span>
-                </li>
-                <li>
-                    <strong>86</strong>
-                    <span>Courses</span>
-                </li>
-                <li>
-                    <strong>750</strong>
-                    <span>Video Tutorials</span>
-                </li>
-                <li>
-                    <strong>58</strong>
-                    <span>Countries</span>
-                </li>
-            </ul>
-        </div> -->
 
-        <div class="extended-wrapper carousal-container">
+   
+
+        <!-- The three column -->
+            
+         <div class="row">
+            <div class="column">
+            <img src="images/box7.jpeg" alt="Snow" style="width:100%">
+         </div>
+         <div class="column">
+            <img src="images/box2.jpg" alt="Forest" style="width:100%">
+         </div>
+         <div class="column">
+            <img src="images/box8.jpeg" alt="Mountains" style="width:100%">
+         </div>
+
+         <!-- The three coulum -->
+         <div class="row">
+            <div class="column">
+            <img src="images/box4.jpg" alt="Snow" style="width:100%">
+         </div>
+         <div class="column">
+            <img src="images/box6.jpeg" alt="Forest" style="width:100%">
+         </div>
+         <div class="column">
+            <img src="images/box5.png" alt="Mountains" style="width:100%">
+         </div>
+ 
+
+
+        <!--<div class="extended-wrapper carousal-container">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/arrow_copy_copy.svg" id="left-arrow" class="arrows" alt="Move testimonials to the left">
 
             <ul class="carousal">
@@ -137,16 +142,60 @@ function showSlides() {
                     <blockquote>"Dr. Benjamin is a life saver. He is one of the best Medical Practitoner in Ghana."</blockquote>
                     <cite>Cassie Matthews</cite>
                 </li>
-            </ul>
+            </ul>-->
 
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/arrow_copy_copy.svg" id="right-arrow" class="arrows right" alt="Move testimonials to the right">
-        </div>
+            <!--<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/arrow_copy_copy.svg" id="right-arrow" class="arrows right" alt="Move testimonials to the right">
+        </div>-->
     </div>
 
-    <div class="wrapper move-up v-padding">
-        <h2>Stations as a guest to...</h2>
+    
+        
 
-        <ul class="companies">
+        <center>
+        <div class="light-purple-wrapper">
+        <div class="wrapper">
+
+    <!--<div class="wrapper move-up v-padding">-->
+
+        <h2>Stations as a guest to...</h2>
+            <ul class="stats">
+
+                <li>
+                    <img src="images/adomtv.jpg" alt="adom" class="adom">
+                    <!--
+                    <strong>26.5M</strong>
+                    <span>YouTube Views</span>-->
+                </li>
+                <li>
+                    <img src="images/UTV.jpg" alt="utv" class="utv">
+                    <!--<strong>535K</strong>
+                    <span>YouTube Subs</span>-->
+                </li>
+                <li>
+                    <img src="images/nhyira.jpg" alt="Nyira" class="adom">
+                    <!--<strong>86</strong>
+                    <span>Courses</span>-->
+                </li>
+                <li>
+                    <img src="images/oman.jpg" alt="OmanFM" class="utv">
+                    <!--<strong>750</strong>
+                    <span>Video Tutorials</span>-->
+                </li>
+                <li>
+                    <img src="images/peace.png" alt="peace" class="adom">
+                    <!--<strong>58</strong>
+                    <span>Countries</span>-->
+                </li>
+                <li>
+                    <img src="images/fox.jpg" alt="peace" class="adom">
+                    <!--<strong>58</strong>
+                    <span>Countries</span>-->
+                </li>
+            </ul>
+        </div>
+    </center>
+
+        <!--<ul class="companies">
             <li><img src="images/adomtv.jpg" alt="adom" class="adom"></li>
             <li><img src="images/UTV.jpg" alt="utv" class="utv"></li>
             <li><img src="images/nhyira.jpg" alt="Nyira" class="adom"></li>
@@ -154,9 +203,45 @@ function showSlides() {
             <li><img src="images/peace.png" alt="peace" class="adom"></li>
             <li><img src="images/fox.jpg" alt="peace" class="adom"></li>
         </ul>
-    </div>
+    </div>-->
 
-    <div class="social-buttons">
+    
+          <div class="clear"></div>
+    
+  <!--Footer page-->
+            <footer>   
+        <center>
+        <div style="background-color:black;color:white;padding:20px;">
+      <b> One must eat to live not live to eat. So let thy food be thy Medicine. </b> 
+
+
+     
+          
+      <div 
+      <ul>
+          <p><b>Headquaters:</b> Old Tafo near Okess</p>
+          <p>P.O. Box 7042 - Kumasi </p>
+          <p>Mobile: 0242 93842 / 0266 612439</p>
+    </div>  
+    <br>
+     <div 
+      <ul>
+          <p><b>Branch:</b> Tema Community 5 near Apostolic Church</p>
+          <p>Tel: 0261 229977 / 0500 444422 / 0500 444433</p>
+     </div> 
+
+     <br>
+     <div style="text-align:center">
+        <b> Working Hours</b>
+      <ul>
+          <p>Mondays - Thursdays:</p>
+          <p> 8:30am - 4:30pm</p>
+          <p> Fridays: 8:30am - 2:00pm</p>
+          <p> Saturday - Sunday: Closed </p>
+      </ul>
+     </div> 
+
+      <div class="social-buttons">
             <center>
                 <h3>Connect with Us...</h3>
         
@@ -174,9 +259,26 @@ function showSlides() {
                   </div> 
                 </a>
             </center> 
-          
-        </div>
+
+    <br>
+
+    <div id="footer">
+    <ul>
+
+        <a href="about.html"> About Us </a> | </li>
+        <a href="services.html"> Services </a> | </li>
+        <a href="contact.html"> Contact Us </a></li>
+    </ul>
+    </div>
+
+      <br>
+      <div class="container">Copyright &copy; 2020 Prince Emmanuel Sanitarium - Clinic</div>
+    </center>
+    </footer>
+    
+    
 
 </body>
+
 
 </html>
